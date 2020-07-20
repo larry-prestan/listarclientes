@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrapcss/bootstrap.min.css">
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container mt-4">
+        <h4>LISTAR CLIENTES ASINCRONO CON AJAX</h4>
+        <form>
+            <label>DIGITE LA CEDULA:</label>
+            <div class="form-group">
+                <input type="text" name="cedula" id="cedula" autocomplete="off">
+            </div>
+        </form>
+        <hr>
+        <h4>Listado de clientes</h4>
+        <table class="table">
+            <thead>
+                <th>CEDULA</th>
+                <th>NOMBRE</th>
+                <th>DIRECCION</th>
+                <th>TELEFONO</th>
+            </thead>
+            <tbody id="tbodylist">
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+<script src="bootstrapjs/bootstrap.min.js"></script>
+</html>
